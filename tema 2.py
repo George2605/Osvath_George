@@ -1,6 +1,3 @@
-from dataclasses import replace
-from os.path import split
-
 text = """Primele jocuri video au fost realizate între anii 1950 și 1960 de Jon Snell și rulau pe platforme cum ar fi osciloscopul, sau computere EDSAC. 
 Cel mai vechi joc pe calculator, o simulare de rachete, a fost creat în 1947 de către Thomas T. Goldsmith Jr. și de Estle Ray Mann. 
 O cerere pentru acordarea de drepturi de autor a fost făcută pe 25 ianuarie 1947 și patentată ca U.S. Patent #2,455,992 din data de 14 decembrie 1948. 
