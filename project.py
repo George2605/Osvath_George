@@ -34,7 +34,7 @@ def visualize_sort(algorithm):
             messagebox.showerror("Eroare", "Secvența este goală. Vă rugăm să introduceți numere.")
             return
 
-        delay = speed_var.get() / 1000  # Convertim din milisecunde în secunde
+        delay = speed_var.get() / 1000  
 
         canvas.delete("all")
         draw_bars(numbers, ["blue"] * len(numbers))
@@ -181,7 +181,6 @@ def exit_application():
 root = tk.Tk()
 root.title("Selector de Algoritmi de Sortare cu Vizualizare")
 
-# Setarea numărului de elemente
 label_num_elements = tk.Label(root, text="Număr de elemente (între 5 și 100):")
 label_num_elements.pack(pady=5)
 
